@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Download fireware to flash
+st-flash write out/main.bin 0x8000000
